@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 600px;
+    height: 600px;
+    
+
+}
+
+.drop-targets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.box {
+    height: 600px;
+    width: 600px;
+    border: solid 3px #ccc;
+    background-image: url(img/Vignette-test-fond.png);
+    background-size: 100%, 100%;
+    margin: 10px;
+    position:relative;
+
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-image: url(img/bulle-ronde.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position:  absolute;
+    left: 0;
+    top: 0;
+    resize: both;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+    
+}
+.itemP {
+    padding: 17%;
+    word-wrap: break-word;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    z-index: 10;
+    white-space: pre-wrap;
+    overflow-wrap:break-word;
+    overflow: auto;
+}
+.element {
+    border: solid 3px #ccc;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.elements {
+    display: flex;
+    flex-direction: column;
+}
